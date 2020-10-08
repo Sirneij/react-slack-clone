@@ -8,7 +8,7 @@ This application written using `react.js` and controlled by Google's `firebase` 
 
 And much more...
 
-# Project's Source Structure
+## Project's Source Structure
 
 The source, `src` directory of this application looks like this:
 
