@@ -38,4 +38,10 @@ Then, start the application using:
 npm run start
 ```
 
+Or
+
+```
+npm start
+```
+
 If you didn't change the default port for running react applications, visit `localhost:3000` to interact with the application.
