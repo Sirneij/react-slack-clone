@@ -8,6 +8,22 @@ This application written using `react.js` and controlled by Google's `firebase` 
 
 And much more...
 
+# Project's Source Structure
+
+The source, `src` directory of this application looks like this:
+
+```
+src/
+├── App.test.js
+├── components
+│   ├── App.js
+│   └── index.js
+├── index.css
+├── index.js
+├── serviceWorker.js
+└── setupTests.js
+```
+
 # Set up
 
 To successfully run this application, ensure you have `node.js` installed on your machine. Installing `node` ensures the installation of its package manager, `npm` which will be used to installed this app's dependencies.
