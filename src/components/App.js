@@ -1,13 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { SignIn } from "./";
+import { SignIn, Slack } from "./";
 
 function Home() {
   return <div>Home</div>;
-}
-
-function Some() {
-  return <div>Some</div>;
 }
 
 function App() {
@@ -16,7 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={SignIn} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/some" component={Some} />
+        <Route exact path="/slack" component={Slack} />
       </Switch>
     </div>
   );
