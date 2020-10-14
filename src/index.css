@@ -1108,6 +1108,33 @@ body::-webkit-scrollbar-thumb {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.top-1 {
+  top: 10%;
+}
+.top-2 {
+  top: 20%;
+}
+.top-3 {
+  top: 30%;
+}
+.top-4 {
+  top: 40%;
+}
+.top-5 {
+  top: 50%;
+}
+.top-6 {
+  top: 60%;
+}
+.top-7 {
+  top: 70%;
+}
+.top-8 {
+  top: 80%;
+}
+.top-9 {
+  top: 90%;
+}
 .header-wrapper {
   position: relative;
 }
@@ -1291,13 +1318,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn {
-  margin-left: auto;
+  margin-right: 1rem;
   padding: 0.6rem 1rem;
   font-weight: bold;
   outline: none;
   border: none;
   border-radius: 0.225rem;
   cursor: pointer;
+}
+
+.btn-float-left {
+  margin-left: auto;
 }
 
 .btn-primary {

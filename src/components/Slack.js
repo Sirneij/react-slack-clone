@@ -12,7 +12,7 @@ export default function Slack() {
   return (
     <div className="container">
       <Header />
-      <main class="main">
+      <main className="main">
         <Sidebar />
         <MainContainer />
         <SidebarDrawer />
