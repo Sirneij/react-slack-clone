@@ -1,5 +1,10 @@
 import React from "react";
-
+import { Content, RightSidebar } from "./";
 export default function MainContainer() {
-  return <div>Main Container</div>;
+  return (
+    <section className="body">
+      <Content />
+      <RightSidebar />
+    </section>
+  );
 }

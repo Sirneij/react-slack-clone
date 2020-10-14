@@ -1,6 +1,6 @@
 # Slack Clone using React and firebase
 
-This application written using `react.js` and controlled by Google's `firebase` backend tends to mimick the popular slack application. Though not a full clone, it possesses functionalities such as:
+This application, a functional version of the [React Clone UI](https://github.com/Sirneij/slack-clone-ui/) which can be accessed live using this [link](https://sirneij.github.io/slack-clone-ui), was written using `react.js` and controlled by Google's `firebase` backend, and it tends to mimick the popular slack application. Though not a full clone, it possesses functionalities such as:
 
 - User sign in and registration
 - Inter-user messaging
@@ -17,8 +17,24 @@ src/
 ├── App.test.js
 ├── components
 │   ├── App.js
+│   ├── Content.js
+│   ├── Header.js
 │   ├── index.js
-│   └── SignIn.js
+│   ├── MainContainer.js
+│   ├── RightSidebarDrawer.js
+│   ├── RightSidebar.js
+│   ├── SidebarDrawer.js
+│   ├── Sidebar.js
+│   ├── SignIn.js
+│   └── Slack.js
+├── images
+│   ├── lock.png
+│   ├── user1.jpg
+│   ├── user2.jpg
+│   ├── user3.jpg
+│   ├── user4.jpg
+│   ├── user5.jpg
+│   └── user6.jpg
 ├── index.css
 ├── index.js
 ├── serviceWorker.js
