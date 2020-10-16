@@ -8,6 +8,8 @@ import Content from "./Content";
 import RightSidebar from "./RightSidebar";
 import SidebarDrawer from "./SidebarDrawer";
 import RightSidebarDrawer from "./RightSidebarDrawer";
+import Toolbar from "./Toolbar";
+import Editor from "./Editor";
 export {
   App,
   SignIn,
@@ -19,4 +21,6 @@ export {
   RightSidebar,
   SidebarDrawer,
   RightSidebarDrawer,
+  Toolbar,
+  Editor,
 };

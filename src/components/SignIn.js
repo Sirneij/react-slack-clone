@@ -1,4 +1,5 @@
 import React from "react";
+import { signInWithGoogle } from "../firebase";
 
 export default function SignIn() {
   return (
@@ -10,11 +11,19 @@ export default function SignIn() {
             Signin into your account or register using your Google account.
           </small>
           <div className="footer-bottons centered">
-            <button type="submit" className="btn btn-primary">
-              Signin with Google
+            <button
+              type="submit"
+              className="btn btn-primary"
+              onClick={signInWithGoogle}
+            >
+              Sign in with Google
             </button>
-            <button type="submit" className="btn btn-primary">
-              Register with Google
+            <button
+              type="submit"
+              className="btn btn-primary"
+              onClick={signInWithGoogle}
+            >
+              Sign up with Google
             </button>
           </div>
         </form>

@@ -1507,7 +1507,26 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--dark-grey);
   color: var(--slack-main-white);
 }
-
+.hidden {
+  display: none;
+}
+.input:empty::before {
+  content: attr(data-placeholder);
+  color: #9e9a9a;
+}
+.codeBlock {
+  background-color: #3f0e40;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  min-width: 2rem;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  overflow: auto;
+  color: var(--slack-main-white);
+  padding: 0.8rem;
+}
 @media (max-width: 1250px) {
   .body {
     grid-template-columns: 1.5fr;
